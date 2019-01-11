@@ -1,0 +1,182 @@
+#pai{
+    height:100%; 
+	width:100%;
+}
+body{
+   background-image: url(imagem/fundoc.jpg);
+      /*background-color: #c9bcbc;*/    
+}
+
+/*configuração do jogo*/
+		#p{
+        height:360px; 
+        width:300px;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 50px;
+      }
+      #pontos{
+        color: black;
+        margin-top: 250px;
+        position: absolute;
+        margin-left: 150px;
+        z-index: +1;
+        font-size: 25px;
+      }
+/*#modal{
+    height:560px; 
+	width:620px;
+    background-color:white;
+    padding:24px;
+	margin-top:45px;
+    margin-left: 450px;
+	border-radius: 15px;
+    position: absolute;
+}*/
+
+div#memory_board{
+	background:#3d3c46;
+	border:#999 1px solid;
+	height:560px; 
+	width:620px;
+	padding:24px;
+	/*margin-top:-25px;
+    margin-left: -25px;*/
+    
+    margin-top:45px;
+    margin-left: 450px;
+    position: absolute;
+	border-radius: 15px;
+    
+}
+div#memory_board > div{
+	background:#a74040;
+	border:#000 1px solid;
+	width:100px;
+	height:140px;
+	float:left;
+	margin:5px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	border-radius: 15px;
+	margin-top: 0px;	
+}
+div#memory_board >div:hover{
+	box-shadow: 0 0 40px black ;
+}
+
+#img{
+    height:200px; 
+	width:250px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+#numberCountdown{
+    
+    height:90px; 
+	width:80px;
+    margin-top:100px;
+    margin-left:1200px;
+    position: absolute;
+    border-radius: 40px;
+}
+#bpontos{
+    margin-top:300px;
+    position: absolute;
+    z-index: +1;
+    margin-left:150px;
+    width: 150px;
+    height: 100px;
+    background-color:#eace81;
+    border:0;
+    font-size:100px;
+    
+}
+/*menu*/
+
+		
+					nav.menu ul{
+          				list-style:none;
+          				text-transform:uppercase;
+          				position:absolute;
+          				top:450px;
+          				z-index: +1;
+          				left: 120px;
+                        
+          				 }
+
+				nav.menu li{
+					display:inline-block;
+					background-color:#ccc;
+					padding:10px;
+					margin:3px;
+					box-shadow: 3px 3px 14px black;
+					transition:background-color 1s;
+                    border-radius: 5px;
+					}
+
+				nav.menu li:hover{
+					padding:15px;
+					margin-top:-3px;
+					background-color:#606060;
+					}
+
+				nav.menu{
+					display:block;
+					position:relative;
+                    
+					}
+
+				nav.menu a{
+					color:black;
+					text-decoration:none;
+					}
+				nav.menu a:hover{
+					color:white;
+					}
+/*fomulario*/
+    #form{
+        width:300px;
+        height: 300px;
+        margin-top:250px;
+       
+    }
+    .input{
+        border-radius:5px;
+        height:40px;
+        width: 250px;
+        font-size: 20px;
+    }
+    #jogoM{
+        width: 300px;
+        height: 150px;
+        margin-top:-100px;
+        position: absolute;
+        /*margin-left:520px;*/
+         margin-left:38%;
+    }
+    #login{
+        background-color:#ea1244;
+        color: white;
+    }
+    a{
+       list-style:none;
+       text-transform:uppercase;
+       text-decoration:none; 
+       color:black;
+    }
+    #bcadastrar{
+        background-color:#d0d0ef;
+        margin-left:3%;
+        width: 95px;
+        padding: 5px;
+        margin-top:10px;
+        border-radius: 5px;
+    }
+
+
+

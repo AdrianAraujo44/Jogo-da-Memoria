@@ -1,0 +1,137 @@
+#pai{
+    height:100%; 
+	width:100%;
+}
+body{
+    background:#15c13d;
+}
+
+div#memory_board{
+	background:#3d3c46;
+	border:#999 1px solid;
+	height:560px; 
+	width:620px;
+	padding:24px;
+	margin-top:45px;
+    margin-left: 450px;
+	border-radius: 15px;
+}
+div#memory_board > div{
+	background:#a74040;
+	border:#000 1px solid;
+	width:100px;
+	height:140px;
+	float:left;
+	margin:5px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	border-radius: 15px;
+	margin-top: 0px;	
+}
+div#memory_board >div:hover{
+	box-shadow: 0 0 40px black ;
+}
+/*interface*/
+#img{
+    height:200px; 
+	width:250px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+#numberCountdown{
+    background: #ccc;
+    height:90px; 
+	width:80px;
+    margin-top:100px;
+    margin-left:1200px;
+    position: absolute;
+    border-radius: 40px;
+}
+
+/*sistema de login*/
+
+#Jmemoria{
+	
+	height:300px; 
+	width:500px;
+	margin-top: 150px;	
+}
+#jm{
+	height:300px; 
+	width:500px;
+	margin-left:-30px;
+	margin-top: -30px;
+
+}
+#form{
+	margin-top: -170px;
+	position: absolute;
+	margin-left: 460px;
+	
+	animation: aparecer 5s infinite; 
+}
+
+span{
+	color:white;
+	font-size: 25px;
+}
+
+input{
+	border-radius: 5px;
+}
+#fundolog{
+	height:600px; 
+	width:1200px;
+	background-image:url("imagem/fundo.jpg");
+	border-radius: 15px;
+	position: absolute;
+	margin-left: 5%;
+
+}
+/*menu*/
+
+				nav#menu ul{
+					list-style:none;
+					text-transform:uppercase;
+					position:absolute;
+					top:-10px;
+					left:82%;
+					
+					}
+				nav#menu li{
+					display:inline-block;
+					background-color:#ccc;
+					padding:10px;
+					margin:3px;
+					box-shadow: 3px 3px 14px black;
+					transition:background-color 1s;
+					}
+
+				nav#menu li:hover{
+					padding:15px;
+					margin-top:-3px;
+					background-color:#606060;
+
+					}
+
+				nav#menu{
+					display:block;
+					position:relative;
+					}
+
+				nav#menu a{
+					color:black;
+					text-decoration:none;
+
+					}
+			
+				nav#menu a:hover{
+					color:white;
+					}
+					
+
+    
